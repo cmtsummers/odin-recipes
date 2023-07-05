@@ -1,24 +1,36 @@
 /* styles.css */
 
+body {
+    background-color: rgb(37, 29, 94);
+    align-items: center;
+}
 .header {
     text-align: center;
     font-size: 22px;
     color: darkslategray;
     background-color: lightblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.para {
-    background: radial-gradient(cadetblue, darkslateblue);
+    font-style: italic;
+    font-weight: 800;
+    padding: 30px;
+    margin: auto;
+    width: fit-content;
 }
 
 .list {
     border: 2px darkcyan;
+    background: cadetblue;
+    padding: 25px;
+    width: fit-content;
+    margin: auto;
 }
 
 .item {
+    background: cadetblue;
     text-align: left;
-    font-size: 12px;
-    color: blue;
+    font-size: 16px;
+    color: darkslateblue;
     font-family: "Comic Sans", "Brush Script MT", Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding: 20px;
 }
